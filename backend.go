@@ -16,7 +16,7 @@ func Init() error {
 	}
 	tb.SetInputMode(tb.InputEsc | tb.InputMouse)
 	tb.SetOutputMode(tb.Output256)
-	tb.send_clear()
+	tb.Clear()
 	return nil
 }
 
