@@ -11,8 +11,8 @@ import (
 	"math"
 	"time"
 
-	ui "github.com/gizak/termui/v3"
-	"github.com/gizak/termui/v3/widgets"
+	ui "github.com/pytomtoto/termui/v3"
+	"github.com/pytomtoto/termui/v3/widgets"
 )
 
 func main() {
@@ -37,14 +37,14 @@ func main() {
 	}
 
 	listData := []string{
-		"[0] gizak/termui",
+		"[0] pytomtoto/termui",
 		"[1] editbox.go",
 		"[2] interrupt.go",
 		"[3] keyboard.go",
 		"[4] output.go",
 		"[5] random_out.go",
 		"[6] dashboard.go",
-		"[7] nsf/termbox-go",
+		"[7] pytomtoto/termbox-go",
 	}
 
 	l := widgets.NewList()

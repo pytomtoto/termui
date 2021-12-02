@@ -8,7 +8,7 @@ import (
 	"image"
 	"image/color"
 
-	. "github.com/gizak/termui/v3"
+	. "github.com/pytomtoto/termui/v3"
 )
 
 type Image struct {
